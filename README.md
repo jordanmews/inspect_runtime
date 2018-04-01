@@ -1,10 +1,14 @@
 # inspect_runtime
 a python API-exploration tool.  inspect your code at runtime for certain string values.  generates a list of all code that will return your targeted value.
 
+___
+
 # Scopes explicitly searched:  
 - thread stackframes
 - locals
 - any other object as specified by you
+
+___
 
 ## Examples
 `python3.6 -i -m inspect_runtime`
